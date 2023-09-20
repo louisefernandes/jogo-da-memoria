@@ -4,15 +4,142 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#B6DFB8"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Jogo da Memória"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="315dp"
+        android:layout_height="319dp"
+        android:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619">
+
+        <ImageView
+            android:id="@+id/imageprof1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/prof1" />
+
+        <ImageView
+            android:id="@+id/imageprof2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/prof2" />
+
+        <ImageView
+            android:id="@+id/imageprof3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/prof3" />
+
+        <ImageView
+            android:id="@+id/imageprof4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/prof4" />
+
+        <ImageView
+            android:id="@+id/imageprof5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/prof5" />
+
+        <ImageView
+            android:id="@+id/imageprof6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/prof6" />
+
+        <ImageView
+            android:id="@+id/imageprof7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/prof7" />
+
+        <ImageView
+            android:id="@+id/imageprof8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/prof8" />
+
+        <ImageView
+            android:id="@+id/imageprof9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/prof1" />
+
+        <ImageView
+            android:id="@+id/imageprof10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/imageprof11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/imageprof12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/imageprof13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/imageprof14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/imageprof15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/imageprof16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/tvTentativas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
