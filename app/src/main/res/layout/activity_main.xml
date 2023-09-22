@@ -4,129 +4,92 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B6DFB8"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Jogo da Memória"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.137" />
 
     <GridLayout
         android:id="@+id/gridLayout"
-        android:layout_width="315dp"
-        android:layout_height="319dp"
+        android:layout_width="371dp"
+        android:layout_height="398dp"
         android:columnCount="4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.619">
+        app:layout_constraintVertical_bias="0.675">
 
         <ImageView
-            android:id="@+id/imageprof1"
+            android:id="@+id/imageProf1"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@mipmap/prof1" />
+            android:layout_margin="5dp"
+            android:src="@drawable/prof1"
+            android:tag="valeria"
+            android:background="@drawable/ic_launcher_background" />
 
         <ImageView
-            android:id="@+id/imageprof2"
+            android:id="@+id/imageProf2"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@mipmap/prof2" />
+            android:layout_margin="5dp"
+            android:src="@drawable/prof2"
+            android:tag="luiz"
+            android:background="@drawable/ic_launcher_background" />
 
         <ImageView
-            android:id="@+id/imageprof3"
+            android:id="@+id/imageProf3"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@mipmap/prof3" />
+            android:layout_margin="5dp"
+            android:src="@drawable/prof3"
+            android:tag="francisco"
+            android:background="@drawable/ic_launcher_background" />
 
         <ImageView
-            android:id="@+id/imageprof4"
+            android:id="@+id/imageProf4"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@mipmap/prof4" />
+            android:layout_margin="5dp"
+            android:src="@drawable/prof4"
+            android:tag="gustavo"
+            android:background="@drawable/ic_launcher_background" />
 
         <ImageView
-            android:id="@+id/imageprof5"
+            android:id="@+id/imageProf5"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@mipmap/prof5" />
+            android:layout_margin="5dp"
+            android:src="@drawable/prof5"
+            android:tag="alexandre"
+            android:background="@drawable/ic_launcher_background" />
 
         <ImageView
-            android:id="@+id/imageprof6"
+            android:id="@+id/imageProf6"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@mipmap/prof6" />
+            android:layout_margin="5dp"
+            android:src="@drawable/prof6"
+            android:tag="heremita"
+            android:background="@drawable/ic_launcher_background" />
 
         <ImageView
-            android:id="@+id/imageprof7"
+            android:id="@+id/imageProf7"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@mipmap/prof7" />
+            android:layout_margin="5dp"
+            android:src="@drawable/prof7"
+            android:tag="edemberg"
+            android:background="@drawable/ic_launcher_background" />
 
         <ImageView
-            android:id="@+id/imageprof8"
+            android:id="@+id/imageProf8"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@mipmap/prof8" />
-
-        <ImageView
-            android:id="@+id/imageprof9"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@mipmap/prof1" />
-
-        <ImageView
-            android:id="@+id/imageprof10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
-
-        <ImageView
-            android:id="@+id/imageprof11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
-
-        <ImageView
-            android:id="@+id/imageprof12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
-
-        <ImageView
-            android:id="@+id/imageprof13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
-
-        <ImageView
-            android:id="@+id/imageprof14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
-
-        <ImageView
-            android:id="@+id/imageprof15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
-
-        <ImageView
-            android:id="@+id/imageprof16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
+            android:layout_margin="5dp"
+            android:src="@drawable/prof8"
+            android:tag="maxsuel"
+            android:background="@drawable/ic_launcher_background" />
 
     </GridLayout>
 
@@ -140,6 +103,42 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.244" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="226dp"
+        android:layout_height="107dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083"
+        app:srcCompat="@drawable/titulo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="93dp"
+        android:layout_height="77dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_168860"
+        tools:layout_editor_absoluteY="638dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
