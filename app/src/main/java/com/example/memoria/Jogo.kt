@@ -7,6 +7,8 @@ class Jogo {
     private var cartas = arrayOf("alexandre", "alexandre", "gustavo", "gustavo",
         "luiz", "luiz", "maxsuel", "maxsuel", "francisco", "francisco", "edemberg", "edemberg",
         "heremita", "heremita", "valeria", "valeria")
+
+    private var atrasoExibicaoCartas = 2000L
     constructor() {
        this.cartas.shuffle()
     }
