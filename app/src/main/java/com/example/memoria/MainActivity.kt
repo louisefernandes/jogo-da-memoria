@@ -24,7 +24,6 @@ class MainActivity<GridLayout : View?> : AppCompatActivity() {
         this.progressBar1 = findViewById(R.id.progressBar1)
 
         this.jogo = Jogo()
-        val gridLayout = findViewById<GridLayout>(R.id.gridLayout)
 
         imageViews = listOf(
             findViewById(R.id.imageProf1),
@@ -34,7 +33,15 @@ class MainActivity<GridLayout : View?> : AppCompatActivity() {
             findViewById(R.id.imageProf5),
             findViewById(R.id.imageProf6),
             findViewById(R.id.imageProf7),
-            findViewById(R.id.imageProf8)
+            findViewById(R.id.imageProf8),
+            findViewById(R.id.imageProf9),
+            findViewById(R.id.imageProf10),
+            findViewById(R.id.imageProf11),
+            findViewById(R.id.imageProf12),
+            findViewById(R.id.imageProf13),
+            findViewById(R.id.imageProf14),
+            findViewById(R.id.imageProf15),
+            findViewById(R.id.imageProf16)
         )
 
         for (imageView in imageViews) {
@@ -62,8 +69,10 @@ class MainActivity<GridLayout : View?> : AppCompatActivity() {
         if (jogo.verificarFimDoJogo()) {
             if (jogo.paresEncontrados == 8) {
                 Toast.makeText(this, "Você ganhou!", Toast.LENGTH_SHORT).show()
+                this.indoTelaGanhou()
             } else {
                 Toast.makeText(this, "Você perdeu!", Toast.LENGTH_SHORT).show()
+                this.indoTelaPerdeu()
             }
             novoJogo()
         }
@@ -88,8 +97,8 @@ class MainActivity<GridLayout : View?> : AppCompatActivity() {
     }
 
     private fun novoJogo() {
-        jogo.novoJogo()
-        tvTentativas.text = "Tentativas: 10"
+        this.jogo.novoJogo()
+        tvTentativas.text = "Tentativas: "
         progressBar1.progress = 0
 
         for (imageView in imageViews) {
