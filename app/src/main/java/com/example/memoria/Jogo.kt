@@ -1,49 +1,48 @@
 package com.example.memoria
 
 class Jogo {
-    private var numeroMaximoTentativas = 10
+    var numeroMaximoTentativas = 20
     private var tentativasErradas = 0
     var paresEncontrados = 0
-    private var cartas = arrayOf("alexandre", "alexandre", "gustavo", "gustavo",
-        "luiz", "luiz", "maxsuel", "maxsuel", "francisco", "francisco", "edemberg", "edemberg",
-        "heremita", "heremita", "valeria", "valeria")
-    constructor() {
-       this.cartas.shuffle()
+    var cartas = mutableListOf<Int>()
+    init {
+        this.cartas = mutableListOf<Int>(
+            R.drawable.prof1, R.drawable.prof2,
+            R.drawable.prof3, R.drawable.prof4,
+            R.drawable.prof5, R.drawable.prof6,
+            R.drawable.prof7, R.drawable.prof8,
+            R.drawable.prof1, R.drawable.prof2,
+            R.drawable.prof3, R.drawable.prof4,
+            R.drawable.prof5, R.drawable.prof6,
+            R.drawable.prof7, R.drawable.prof8
+        )
+        this.cartas.shuffle()
     }
-    fun verificarTentativa(carta: String): Boolean {
-        if (!cartas.contains(carta)) {
-            return false
-        }
+    fun verificarTentativa(primeiraCarta: Int, segundaCarta: Int): Boolean {
 
         if (numeroMaximoTentativas > 0) {
-            val cartasIguais = cartas.filter { it == carta }
-
-            if (cartasIguais.size >= 2) {
-                paresEncontrados++
-            } else {
-                tentativasErradas++
-            }
-
-            numeroMaximoTentativas--
-            return true
+           if (primeiraCarta == segundaCarta) {
+               paresEncontrados++
+               return true
+           } else {
+               tentativasErradas++
+               numeroMaximoTentativas--
+               return false
+           }
         }
         return false
     }
-    fun registrarTentativaErrada() {
-        tentativasErradas++
-    }
     fun verificarFimDoJogo(): Boolean {
-        return paresEncontrados == 8 || tentativasErradas >= numeroMaximoTentativas
+        return paresEncontrados == 8 || numeroMaximoTentativas == 0
     }
-    fun registrarParEncontrado() {
-        paresEncontrados++
+    fun getTentativasErradas(): Int {
+        return tentativasErradas
     }
     fun novoJogo() {
-        numeroMaximoTentativas = 10
+        numeroMaximoTentativas = 20
         tentativasErradas = 0
         paresEncontrados = 0
-
-        cartas.shuffle()
+        this.cartas.shuffle()
     }
 }
 //private var numeroMaximoTentativas = 10

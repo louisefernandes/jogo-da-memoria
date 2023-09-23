@@ -19,149 +19,165 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.631">
 
-        <ImageView
-            android:id="@+id/imageProf1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof1"
-            android:tag="valeria" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf1"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof1"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="valeria" />-->
 
-        <ImageView
-            android:id="@+id/imageProf2"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof2"
-            android:tag="luiz" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf2"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof2"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="luiz" />-->
 
-        <ImageView
-            android:id="@+id/imageProf3"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof3"
-            android:tag="francisco" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf3"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof3"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="francisco" />-->
 
-        <ImageView
-            android:id="@+id/imageProf4"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof4"
-            android:tag="gustavo" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf4"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof4"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="gustavo" />-->
 
-        <ImageView
-            android:id="@+id/imageProf5"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof5"
-            android:tag="alexandre" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf5"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof5"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="alexandre" />-->
 
-        <ImageView
-            android:id="@+id/imageProf6"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof6"
-            android:tag="heremita" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf6"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof6"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="heremita" />-->
 
-        <ImageView
-            android:id="@+id/imageProf7"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof7"
-            android:tag="edemberg" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf7"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof7"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="edemberg" />-->
 
-        <ImageView
-            android:id="@+id/imageProf8"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof8"
-            android:tag="maxsuel" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf8"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof8"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="maxsuel" />-->
 
-        <ImageView
-            android:id="@+id/imageProf9"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof1"
-            android:tag="valeria" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf9"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof1"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="valeria" />-->
 
-        <ImageView
-            android:id="@+id/imageProf10"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof2"
-            android:tag="luiz" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf10"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof2"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="luiz" />-->
 
-        <ImageView
-            android:id="@+id/imageProf11"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof3"
-            android:tag="francisco" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf11"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof3"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="francisco" />-->
 
-        <ImageView
-            android:id="@+id/imageProf12"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof4"
-            android:tag="gustavo" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf12"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof4"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="gustavo" />-->
 
-        <ImageView
-            android:id="@+id/imageProf13"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof5"
-            android:tag="alexandre" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf13"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof5"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="alexandre" />-->
 
-        <ImageView
-            android:id="@+id/imageProf14"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof6"
-            android:tag="heremita" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf14"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof6"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="heremita" />-->
 
-        <ImageView
-            android:id="@+id/imageProf15"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof7"
-            android:tag="edemberg" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf15"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof7"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="edemberg" />-->
 
-        <ImageView
-            android:id="@+id/imageProf16"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/ic_launcher_background"
-            android:src="@drawable/prof8"
-            android:tag="maxsuel" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageProf16"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/ic_launcher_background"-->
+<!--            android:src="@drawable/prof8"-->
+<!--            android:clickable="true"-->
+<!--            android:tag="maxsuel" />-->
 
     </GridLayout>
 
@@ -189,7 +205,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914" />
+        app:layout_constraintVertical_bias="0.878" />
 
     <ImageView
         android:id="@+id/imageView"
